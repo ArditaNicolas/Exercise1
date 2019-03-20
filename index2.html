@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<form action="">
+	<!-- action = mau dibawa kemana data yang sudah diinput -->
+	<!-- disabled = input teks tidak bisa diisi -->
+	<!-- required = input teks diharuskan -->
+	<!-- placeholder = input teks isi bayangan teks bukan value -->
+	<!-- value = langsung memberi value default ke input teks -->
+	<h3>Pendaftaran Siswa</h3>
+	<label for="Nama_Lengkap">Nama Lengkap</label>
+	<input type="Nama_Lengkap" id="Nama_Lengkap" name="Nama_Lengkap" disabled="" placeholder="Nama Lengkap"><br><br>
+
+	<label for="email">Email</label>
+	<input type="email" name="email" required=""><br><br>
+
+	<label for="umur">Umur</label>
+	<input type="number" name="umur" max="100" min="10" value="10"><br><br>
+
+	<label for="password">Password</label>
+	<input type="password" name="password"><br><br>
+
+	<label for="date">Date</label>
+	<input type="date" id="date" name="date">
+
+	<button class="btn btn-primary"></button>
+</form>
+
+</body>
+</html>
